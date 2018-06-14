@@ -1,0 +1,178 @@
+.advertise {
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-image: url(Images/Container/container.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.first-half {
+	width: 50%;
+	float: left;
+}
+
+.second-half {
+	float:right;
+	margin: 20% auto;
+}
+.ecommerce-gif {
+	vertical-align: 50px;
+	width: 100%;
+}
+
+.image-grid {
+	clear: both;
+}
+
+.resize-image {
+	float: left;
+	padding: 2% 2%;
+	border: none;
+	background-color: #ffffe6;
+}
+
+.image-grid-text {
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: .5px;
+	margin-top: 50px;
+}
+
+.grid-background {
+	background-color: #ffffe6;
+	clear: both;
+	overflow: hidden;
+}
+
+.categories-grid {
+	float: left;
+	border: none;
+	padding: 3% 3%;
+}
+
+.category-img {
+	width: 200px;
+	height: 180px;
+}
+
+.category-text {
+	text-align: center;
+	font-family: "Lucida Bright";
+}
+
+/*.post {
+	display: inline-block;
+	float: left;
+	background-image: url("Images/network.png");
+	background-size: cover;
+	overflow: hidden;
+	width: 50%;
+}
+*/
+.post-text-left {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.post-text-right {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.post-button-left {
+	margin-right: 20px;
+	float: right;
+}
+
+.post-button-right {
+	margin-left: 20px;
+}
+
+.post {
+	display: inline-block;
+	background-image: url("Images/network.png");
+	background-size: cover;
+	overflow: hidden;
+	width: 48%;
+}
+
+.post-left {
+	margin-right: 10px;
+}
+
+.post-right {
+	margin-left: 10px;
+}
+
+.shopping-text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.shopping-list {
+	list-style-type: none;
+	-webkit-column-count: 4;
+	-column-count: 4;
+	margin-top: 40px;
+}
+
+.bottom {
+	background-color: #393d44;
+	color: white;
+}
+
+.sub-footer {
+	display: inline-block;
+	width: 20%;
+}
+
+.sub-footer a:hover {
+	text-decoration: none;
+}
+
+.left-most-subfooter {
+	text-align: center;
+}
+
+.subfooter-list {
+	list-style-type: none;
+}
+
+@media screen and (max-width: 400px){
+	body {
+		background-color: lightyellow;
+	}
+
+	.first-half, .second-half{
+		width: 100%;
+	}
+
+	.categories-grid {
+		
+	}
+
+	.post {
+		width: 100%;
+	}
+
+	.shopping-list {
+		list-style-type: none;
+		-webkit-column-count: 2;
+		-column-count: 2;
+		margin-top: 20px;
+	}
+
+	.post-left, .post-right{
+		margin: 0 0 10px 0;
+	}
+
+	.sub-footer {
+		width: 100%;
+	}
+
+	.sub-footer-4 {
+		margin-left: 45px;
+	}
+}
